@@ -376,7 +376,7 @@ uint8_t *xbsn_decode(const uint8_t *xbsn,
                      const uint8_t bd_s)
 {
     uint32_t data_pos, xbn_pos, n, s;
-    uint8_t k;
+    uint32_t k;
     bool write_1s, bit;
     uint8_t *data;
 
